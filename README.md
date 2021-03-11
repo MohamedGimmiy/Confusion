@@ -1,6 +1,16 @@
+
+![Confusion](pic.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## How to setup our project
+
+First install node.js then our back-end server globally using command `npm install -g json-server`
+
+Second navigate to **JsonServer** directory then, run our backend server using command: `json-server --watch db.json -p 3001 -d 2000`
 
 ## Available Scripts
 
@@ -13,6 +23,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `json-server --watch db.json -p 3001 -d 2000`
+
+Runs the backend server 
+
+
 
 ### `yarn test`
 
